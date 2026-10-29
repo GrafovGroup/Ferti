@@ -1,0 +1,5 @@
+import { headers } from 'next/headers';
+import type { Metadata } from 'next';
+import './globals.css';
+export const metadata:Metadata={metadataBase:new URL('https://ferti.ca'),title:{default:'Ferti — Find the right fertility care in Canada',template:'%s | Ferti.ca'},description:'Understand fertility testing, treatments and preservation. Discover Canadian fertility clinics and explore your next step with Ferti.',verification:{google:'f5OgmYJcRJ_xte8PVZg5U-OSuSW1T7lk-8nKLUOqo3E',other:{'msvalidate.01':'8540AF3FE8C8197267E84BBE602115F7'}},icons:{icon:'/favicon.svg',shortcut:'/favicon.svg'},openGraph:{title:'Ferti — Find the right fertility care',description:'Clear information and fertility care navigation for women, men, couples and families across Canada.',type:'website',locale:'en_CA'}};
+export default async function RootLayout({children}:{children:React.ReactNode}){const lang=(await headers()).get("x-ferti-locale")==="fr"?"fr":"en";return <html lang={lang}><body>{children}</body></html>}
