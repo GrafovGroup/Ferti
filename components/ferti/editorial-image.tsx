@@ -1,5 +1,12 @@
 import type { Lang } from './shell';
 export const imagery:Record<string,{file:string;alt:[string,string]}>={
+ 'directory':{file:'ferti-directory',alt:['A person arriving at a welcoming healthcare reception.','Une personne arrive à la réception accueillante d’un établissement de santé.']},
+ 'finder':{file:'ferti-finder',alt:['A person considering information on a tablet at a table.','Une personne consulte des renseignements sur une tablette à une table.']},
+ 'contact':{file:'ferti-contact',alt:['A notebook and telephone on a bright, welcoming desk.','Un carnet et un téléphone sur un bureau lumineux et accueillant.']},
+ 'iui':{file:'ferti-iui',alt:['A clinician discusses care with a patient.','Une professionnelle discute des soins avec une patiente.']},
+ 'sperm-freezing':{file:'ferti-sperm-freezing',alt:['A laboratory professional handles a sealed specimen vial.','Une professionnelle de laboratoire manipule un flacon d’échantillon scellé.']},
+ 'semen-analysis':{file:'ferti-semen-analysis',alt:['A laboratory professional working with a microscope and sample.','Un professionnel de laboratoire travaille avec un microscope et un échantillon.']},
+ 'donor-sperm':{file:'ferti-donor-sperm',alt:['Adults discuss family-building questions with a counsellor.','Des adultes discutent de leur projet familial avec une conseillère.']},
  'first-appointment':{file:'guide-first-appointment',alt:['A patient speaking with a clinician in a consultation room.','Une patiente discute avec une professionnelle dans une salle de consultation.']},
  'treatment-options':{file:'guide-treatment-options',alt:['A clinician and patient discussing fertility care options.','Une professionnelle et une patiente discutent des options de soins de fertilité.']},
  'cost-planning':{file:'guide-cost-planning',alt:['A notebook and calculator on a desk for planning expenses.','Un carnet et une calculatrice sur un bureau pour planifier les dépenses.']},
