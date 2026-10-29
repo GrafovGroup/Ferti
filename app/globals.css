@@ -24,3 +24,6 @@
 
 /* Clear starting points and accessible interaction states. */
 .answer-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.answer-grid>div{border-top:2px solid var(--ink);background:#edf0e5;padding:25px}.answer-grid h3{font:24px Georgia,serif;margin-bottom:14px}.answer-grid p{font-size:15px;line-height:1.65}.answer-grid .text-link{margin-top:18px}a:focus-visible,button:focus-visible,summary:focus-visible,[role="radio"]:focus-visible{outline:3px solid #385d3c;outline-offset:3px}@media(max-width:700px){.answer-grid{grid-template-columns:1fr}.answer-grid>div{padding:22px}}
+
+/* Guide imagery is integrated with the existing editorial card system. */
+.guide-card{overflow:hidden}.guide-card .editorial-image.compact{margin:-27px -27px 4px}.guide-card .editorial-image.compact img{aspect-ratio:3/2;object-fit:cover}.guide-card .text-link{margin-top:auto}
